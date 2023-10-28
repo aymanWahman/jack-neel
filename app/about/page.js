@@ -1,8 +1,5 @@
 import Image from "next/image";
 
-export const metadata = {
-  title: "About",
-};
 
 const Page = () => {
   return (
@@ -18,7 +15,7 @@ const Page = () => {
             height={130}
             priority
           />
-          <h2 className="p-3 font-bold ">Saleh Khtab</h2>
+          <h2 className="p-3 font-bold text-3xl">Saleh Khtab</h2>
         </div>
 
 
